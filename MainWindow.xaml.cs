@@ -28,8 +28,22 @@ namespace PR1_Kuznetsov
         private void button1_click(object sender, RoutedEventArgs e)
         {
             Button button = (Button)sender;
-            Canvas.SetLeft(button, random.Next(150, 300));
-            Canvas.SetTop(button, random.Next(100, 250));
+            Canvas.SetLeft(button2, random.Next(150, 300));
+            Canvas.SetLeft(button3, random.Next(150, 300));
+            Canvas.SetLeft(button4, random.Next(150, 300));
+            Canvas.SetLeft(button5, random.Next(150, 300));
+            Canvas.SetTop(button2, random.Next(100, 250));
+            Canvas.SetTop(button3, random.Next(100, 250));
+            Canvas.SetTop(button4, random.Next(100, 250));
+            Canvas.SetTop(button5, random.Next(100, 250));
+            button2.Width -= 3;
+            button2.Height -= 3;
+            button3.Width -= 3;
+            button3.Height -= 3;
+            button4.Width -= 3;
+            button4.Height -= 3;
+            button5.Width -= 3;
+            button5.Height -= 3;
         }
     }
 }
