@@ -1,0 +1,18 @@
+﻿<Window x:Class="PR1_Kuznetsov.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR1_Kuznetsov"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas>
+            <Button x:Name="button1" FontFamily="Times New Roman" FontWeight="Bold" Content="Переместить 3 кнопки" FontStyle="Normal" Margin="5" Padding="15 5" Panel.ZIndex="1" Canvas.Left="10" Canvas.Top="150" Width="170" Height="40" Click="button1_click" />
+            <Button x:Name="button2" FontFamily="Times New Roman" FontWeight="Bold" Content="Первая кнопка" FontStyle="Normal" Margin="5" Padding="15 5" Panel.ZIndex="1" Canvas.Left="300" Canvas.Top="100" Width="170" Height="40" Click="button1_click" />
+            <Button x:Name="button3" FontFamily="Times New Roman" FontWeight="Bold" Content="Вторая кнопка" FontStyle="Normal" Margin="5" Padding="15 5" Panel.ZIndex="1" Canvas.Left="300" Canvas.Top="200" Width="170" Height="40" Click="button1_click" />
+            <Button x:Name="button4" FontFamily="Times New Roman" FontWeight="Bold" Content="Третья кнопка" FontStyle="Normal" Margin="5" Padding="15 5" Panel.ZIndex="1" Canvas.Left="500" Canvas.Top="100" Width="170" Height="40" Click="button1_click" />
+            <Button x:Name="button5" FontFamily="Times New Roman" FontWeight="Bold" Content="Четвертая кнопка" FontStyle="Normal" Margin="5" Padding="15 5" Panel.ZIndex="1" Canvas.Left="500" Canvas.Top="200" Width="170" Height="40" Click="button1_click" />
+        </Canvas>
+    </Grid>
+</Window>
